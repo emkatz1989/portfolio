@@ -1,6 +1,14 @@
 @media screen and (min-width: 480px) {
 	/*if screen width is larger than 480 pixels, than apply the following styles*/
-  
+
+
+body{
+
+  background-image: url('../img/rainbow-abstract.jpg');
+}
+
+
+
 /********************
 TWO COLUMN LAYOUT
 *********************/
@@ -35,12 +43,16 @@ PAGE: PORTFOLIO
 
 }
 
+#wrapper-portfolio{
+  background-color: red;
+}
+
 /********************
 PAGE: ABOUT
 *********************/
 .profile-photo{
 	
-    float: left;
+  float: left;
 	margin: 0 5% 80px 0;
 }
 
@@ -59,6 +71,7 @@ nav {
 	margin-right: 5%;
 	text-align: right;
 	width: 45%;
+  /*position: fixed;*/
   }
 
   #logo{
@@ -80,6 +93,10 @@ nav {
   header{
   	border-bottom: 5px solid #599a68;
   	margin-bottom: 60px;
-  }
+    height: 100px;
+  /*  position: fixed;*/
+    
 
-}
+
+
+  }
