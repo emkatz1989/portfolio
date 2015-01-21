@@ -184,12 +184,31 @@ hr.small {
 
 /*Portfolio*/
 
+#portfolio {
+	background: url(../img/portfolio-background.gif) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+
+	}
+
+ #my-work{
+ 	color: white;
+ }
+
+ .desc{
+ 	color: white;
+ }
+
 	.portfolio{
 		padding: 50px 0;
 	}
 
 	.portfolio-item{
 		margin-bottom: 30px;
+		float: left;
+		width: 80%;
 	}
 
 	.img-portfolio{
