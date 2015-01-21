@@ -4,10 +4,9 @@
   <head>
     
     <!-- jQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
+    
     <!-- normalize.css -->
-    <link rel="stylesheet" href="css/normalize.css">
+  <!--   <link rel="stylesheet" href="css/normalize.css"> -->
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
@@ -16,50 +15,54 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!--   Custom CSS -->
-    <link rel= "stylesheet" href="css/style.css">
+    <link rel= "stylesheet" href="css/main.css">
     
     <!-- Responsive CSS -->
     <!--  <link rel="stylesheet" href="responsive.css"> -->
     
    <!--  Device Adjustment -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Bootstrap Glyphicons -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
   
   </head>
 
 <body>
 
 <!-- NAVIGATION SIDEBAR-->
-    <a id="menu-toggle" href="#" class ="btn btn-dark btn-lg toggle"><i class ="fa fa-bars"></i></a>
+  <!--  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars">Click Here</i></a> -->
     <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"><i></a>
-        <li class="sidebar-brand">
-            <a href="#top">Home</a>
-        </li>
-        <li>
-            <a href="#about">About</a>
-        </li>
-        <li>
-            <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-            <a href="#contact">Contact</a>
-        </li>
-      </ul>
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">x</a>
+            <li class="sidebar-brand">
+                <a href="#top">Eric Katz</a>
+            </li>
+            <li>
+                <a href="#top">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
     </nav>
+
+
+
 
  <!--  Header  --> 
   <header id="top" class="header">
     <div class="text-vertical-center">
 
      <!--  <a href="index.html" id="logo"> -->
-        <h1> I am Eric Katz </h1>
+        <h1 id="header-blurb"header> I am Eric Katz </h1>
         <h3> A Web Developer </h3>
         <br>
-        <a href= "#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <!-- <a href= "#about" class="btn btn-dark btn-lg">Find Out More</a> -->
+         <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars">Find Out More</i></a>
     </div>
   </header>
 
@@ -73,7 +76,9 @@
           <p class="lead"> Hi, I'm Eric. I'm a junior web-developer (RoR, AngularJS and Javascript) open to front and back-end opportunities. I obtained my BA in Peace/Conflict Studies from UC Berkeley. Looking for a team that provides mentorship and whose work affects people's lives in a meaningful way. </p>
         </div>
       </div>
+      <!-- /.row -->
     </div>
+   <!--  /.container -->
   </section>
 
 <!-- Portfolio -->
@@ -84,57 +89,64 @@
         <h2> My Work </h2>
         <hr class="small">
         <div class="row">
-          <div class="portfolio-item">
-            <a href="https://ekatzttt.firebaseapp.com/">
-              <img class="img-portfolio img-responsive" src="img/TTT.png" alt="Dic-Tac-Toe">
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="https://ekatzttt.firebaseapp.com/">
+                <img class="img-portfolio img-responsive" src="img/TTT.png" alt="Dic-Tac-Toe">
                 <p> A silly little Tic-Tac-Toe game built with AngularJS using Firebase.io</p>
-            </a>
+              </a>
           </div>
+         <!--  col-md-6 -->
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="portfolio-item">
-            <a href="img/filename.jpg">
-              <img class="img-portfolio img responsive" src="img/filename.jpg" alt="Yalla-Chat">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="#" alt="Yalla-Chat">
                 <p> Currently Under Revision</p>
             </a>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-6">
           <div class="portfolio-item">
             <a href="http://piknik2.herokuapp.com/">
-              <img class="img-portfolio img responsive" src="img/piknik.png" alt="Piknik">
+              <img class="img-portfolio img-responsive" src="img/piknik.png" alt="Piknik">
                 <p>A photo-streaming app built with Ruby on Rails, Javascript, and PostgreSQL </p>
             </a>
           </div>
-        </div>
+       </div>
       <div class="col-md-6">
         <div class="portfolio-item">
           <a href="https://calbookapp.herokuapp.com/">
-            <img class="img-portfolio img responsive" src="img/calbook.png" alt="Calbook">
+            <img class="img-portfolio img-responsive" src="img/calbook.png" alt="Calbook">
             <p> A calendar-journal integration app built with Ruby on Rails, Javascript, and PostgreSQL</p>
           </a>
         </div>
       </div>
+    
+
     </div>
-   <!--  /.col-lg-10 -->
+   <!--   /.row (nested) -->
   </div>
-<!--   /.row -->
+<!--  /.col-lg-10 -->
+</div>
+<!-- row -->
 </div>
 <!-- /.container -->
 </section>
 
 <!-- Footer -->
-<footer>
+<footer id="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <h2> Contact</h2>
-        <p> Please only use phone contact forr urgent inquiries</p>
-        <ul class ="list-unstyled">
+        <p> Please only use phone contact for urgent inquiries</p>
+        <ul class="list-unstyled">
           <li><i class="fa fa-phone fa-fw"></i>310-429-0241</li>
           <li><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:emkatz1989@gmail.com">emkatz1989@gmail.com</a>
           </li>
         </ul>
+        <br>
         <ul class="list-inline">
           <li>
             <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
@@ -161,36 +173,37 @@
 
 <!-- Custom JS -->
 <script>
-// Closes sidebar Menu
-$("#menu-close").click(function(e){
-  e.preventDefault();
-  $("#sidebar-wrapper").toggleClass("active");
-});
+// Closes sidebar menu
+ $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
 
 //Opens Sidebar Menu
 
-$("#menu-toggle").click(function(e){
-  e.preventDefault();
-  $("sidebar-wrapper").toggleClass("active");
-});
+ $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
 
 //Scrolls to the selected section on the page
 
-$(function(){
-  $('a[href*=#]:not([href=#]').click(function(){
-    if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//,'') || location.hostname == this.hostname){
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
+   $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
 
 </body>
 </html>
@@ -260,6 +273,6 @@ $(function(){
 
 
 
-
+<!-- 
 </body>
-</html>
+</html> -->
