@@ -191,36 +191,42 @@ hr.small {
 	background-size: cover;
 	-o-background-size: cover;
 
-	}
+}
 
- #my-work{
+#my-work{
  	color: white;
  }
 
- .desc{
+.desc{
  	color: white;
- }
+}
 
-	.portfolio{
+.portfolio{
 		padding: 50px 0;
-	}
+}
 
-	.portfolio-item{
+.portfolio-item{
 		margin-bottom: 30px;
 		float: left;
 		width: 80%;
-	}
+}
 
-	.img-portfolio{
+.img-portfolio{
 		margin: 0 auto;
-	}
+}
 
-	.img-portfolio:hover{
+.img-portfolio:hover{
 		opacity: 0.8;
-	}
+}
+
 
 footer{
 	padding: 100px 0;
+	
+}
+
+li{
+	margin: 0 auto;
 }
 
 
