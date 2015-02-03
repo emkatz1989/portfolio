@@ -228,6 +228,7 @@ h3{
 		float: left;
 		width: 80%;
 		position: relative;
+		border: 3px solid blue;
 }
 /*
 .img-portfolio{
@@ -250,8 +251,8 @@ h3{
  	font-size: 25px;
  	-webkit-transition: visibility opacity 0.2s;
  	padding-bottom: 50px;
- 	height: 250px;
- 	padding: 22px;
+ 	height: 225px;
+ 	padding: 18px;
 }
 
 .portfolio-item:hover .desc{
