@@ -37,6 +37,7 @@ body{
 .btn-dark:active {
 	color: #fff;
 	background-color: rgba(0,0,0,0.7);
+	border: 1px solid #24b8dd;
 }
 
 .btn-light {
