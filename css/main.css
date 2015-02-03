@@ -252,7 +252,8 @@ h3{
  	-webkit-transition: visibility opacity 0.2s;
  	padding-bottom: 50px;
  	height: 225px;
- 	padding: 18px;
+ 	padding-bottom: 18px;
+ 	padding-top: 20px;
 }
 
 .portfolio-item:hover .desc{
