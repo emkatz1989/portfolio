@@ -96,6 +96,8 @@ hr.small {
 	display: block;
 	text-decoration: none;
 	color: #999;
+	font-size: 20px;
+	font-family: Arial;
 }
 
 .sidebar-nav li a:hover {
@@ -111,7 +113,7 @@ hr.small {
 
 .sidebar-nav > .sidebar-brand {
     height: 55px;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 55px;
 }
 
@@ -161,7 +163,15 @@ hr.small {
 
 #header-blurb{
 	color: white;
-	font-size: 100px;
+	font-size: 40px;
+}
+
+#name{
+	/*color: #60d3e8;*/
+	/*color: #24b8dd;*/
+	color: white;
+	font-size: 150px;
+	font-family: Arial-Black;
 }
 
 h3{
@@ -175,12 +185,14 @@ h3{
 }
 #about_me{
 	font-size: 80px;
+	font-family: Arial-Black;
 }
 .profile-photo{
 	display: block;
 	max-width: 300px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
+	border: 2px solid black;
 }
 
 .lead{
@@ -204,6 +216,7 @@ h3{
 #my-work{
  	color: white;
  	font-size: 80px;
+ 	font-family: Arial-Black;
  }
 
 .desc{
@@ -236,6 +249,7 @@ footer{
 
 li{
 	margin: 0 auto;
+
 }
 
 .list-unstyled{
@@ -246,6 +260,7 @@ li{
 li:hover{
 	opacity: 0.8;
 	color: #fff;
+	border: 1px solid #24b8dd;
 }
 
 
@@ -253,6 +268,7 @@ li:hover{
 
 #contact_me{
 	font-size: 80px;
+	font-family: Arial-Black;
 }
 
 
