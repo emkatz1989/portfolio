@@ -132,6 +132,7 @@ hr.small {
 	position: fixed;
 	top: 0;
 	right: 0;*/
+	margin-left: 2%;
 }
 
 #sidebar-wrapper.active{
@@ -149,6 +150,21 @@ hr.small {
 }
 
 /*Header*/
+
+
+.intro{
+margin-left: 30%;
+margin-top: 15%;
+
+}
+
+#header-blurb{
+margin-left: %;
+
+}
+
+
+
 
 .header{
 	display: table;
@@ -249,6 +265,7 @@ h3{
  	visibility: hidden;
  	opacity: 0;
  	font-size: 25px;
+ 	font-family: Arial-Black;
  	-webkit-transition: visibility opacity 0.2s;
  	padding-bottom: 50px;
  	height: 225px;
@@ -291,6 +308,7 @@ li{
 li:hover{
 	opacity: 0.8;
 	color: #6699FF;
+	display: inline;
 	
 }
 
