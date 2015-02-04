@@ -261,29 +261,41 @@ h3{
 		visibility: visible;
 }
 
+
+/*Contact*/
+
 footer{
 	padding: 100px 0;
 	
 }
 
+.list-inline{
+	
+
+}
+
 li{
 	margin: 0 auto;
+	
+
 
 }
 
 .list-unstyled{
 	margin: 0 auto;
 	text-align: center;
+
+
 }
 
 li:hover{
 	opacity: 0.8;
-	color: #fff;
-	border: 1px solid grey;
+	color: #6699FF;
+	
 }
 
 
-/*Contact*/
+
 
 #contact_me{
 	font-size: 80px;
