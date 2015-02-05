@@ -149,25 +149,54 @@ hr.small {
 	margin: 5px 5px 0 0;
 }
 
+
+
+
 /*Header*/
 
 #nav{
-/*text-align: center;*/
-margin-top: 10px;
-/*margin-left: 100px;*/
+text-align: right;
 position: fixed;
 display: inline;
-margin-left: 20%;
-padding: 30px;
-
+padding: 20px;
+/*background: #222;*/
+background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+width: 100%;
+z-index: 1;
+text-decoration: none;
+opacity: 0.9;
 }
+
+
+#nav a {
+    color: white;
+} .active{ color:red;}
+
+#nav a:hover {
+    color: #fff;
+ 
+}
+
+
+.nav-brand{
+	float: left;
+	margin-left: 30px;
+	font-size: 15px;
+	color: white;
+}
+
+
 
 .nav-list{
 	display: inline;
-	margin-left: 20px;
-	padding-right: 50px;
-	padding-left: 50px;
-	border: 2px solid black;
+	/*margin-right: 20%;*/
+	padding-right: 0px;
+	margin-right: 30px;
+	padding-left: 20px;
+	font-color: white;
+	font-size: 15px;
+	text-decoration: none;
+
 }
 
 
@@ -194,6 +223,8 @@ margin-left: %;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	background-position: fixed;
+
 }
 
 #header-blurb{
